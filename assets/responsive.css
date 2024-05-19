@@ -1,0 +1,92 @@
+@media (width <= 1000px) {
+  .userInputContent,
+  .chatContent {
+    width: 85%;
+  }
+  .user,
+  .ChatBox {
+    padding: 5px 10px;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  .userInput {
+    font-size: 2rem;
+  }
+  .ChatBox::after,
+  .user::after {
+    font-size: 2rem;
+    width: 35px;
+    height: 35px;
+  }
+  .ChatBox::after {
+    left: -50px;
+  }
+  .user::after {
+    right: -50px;
+    content: "\f007";
+  }
+}
+
+@media (width<= 940px) {
+  .userInputContent,
+  .chatContent {
+    width: 80%;
+  }
+}
+
+@media (width <= 850px) {
+  .userInputContent {
+    width: 90%;
+  }
+}
+
+@media (width <= 690px) {
+  .userInputContainer {
+    height: 55px;
+  }
+  .userInputContent {
+    padding: 5px 10px;
+  }
+}
+
+@media (width <= 650px) {
+  .chatContent {
+    width: 75%;
+  }
+
+  .user,
+  .ChatBox {
+    max-width: 100%;
+  }
+}
+
+@media (width <= 485px) {
+  .chatContent {
+    width: 75%;
+  }
+  .ChatBox::after {
+    left: -45px;
+  }
+  .user::after {
+    right: -45px;
+  }
+  .userInputContent {
+    width: 95%;
+  }
+  .userInput {
+    margin-inline: 10px;
+  }
+}
+
+@media (width <= 405px) {
+  .chatContent {
+    width: 70%;
+  }
+  .mobileUserInput {
+    display: block;
+  }
+  .laptopUserInput {
+    display: none;
+  }
+}
