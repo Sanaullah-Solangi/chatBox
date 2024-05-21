@@ -368,6 +368,13 @@ function sendMessage(val) {
 
         userQualification = false;
       }, 2000);
+    } else {
+      loadingImg.style.display = "block";
+
+      setTimeout(() => {
+        cahtList.innerHTML += `<li class="ChatBot">sorry men samjha nhi ap kya kehna chahte hen</li>`;
+        loadingImg.style.display = "none";
+      }, 2000);
     }
     count = 0;
     event.target.value = "";
