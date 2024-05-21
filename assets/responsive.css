@@ -4,7 +4,7 @@
     width: 85%;
   }
   .user,
-  .ChatBox {
+  .ChatBot {
     padding: 5px 10px;
     font-size: 2rem;
     margin-bottom: 10px;
@@ -13,13 +13,13 @@
   .userInput {
     font-size: 2rem;
   }
-  .ChatBox::after,
+  .ChatBot::after,
   .user::after {
     font-size: 2rem;
     width: 35px;
     height: 35px;
   }
-  .ChatBox::after {
+  .ChatBot::after {
     left: -50px;
   }
   .user::after {
@@ -80,7 +80,7 @@
   }
 
   .user,
-  .ChatBox {
+  .ChatBot {
     max-width: 100%;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -90,7 +90,7 @@
     font-size: 1.7rem;
     padding: 5px 10px;
   }
-  .ChatBox::after,
+  .ChatBot::after,
   .user::after {
     display: none;
   }

@@ -221,7 +221,7 @@ function sendMessage(val) {
 
       setTimeout(() => {
         loadingImg.style.display = "none";
-        cahtList.innerHTML += `<li class="ChatBox">Men theak hun zabardast. ap kese ho?</li>`;
+        cahtList.innerHTML += `<li class="ChatBot">Men theak hun zabardast. ap kese ho?</li>`;
       }, 2000);
     } else if (replyGreetings.indexOf(value.toLowerCase()) != -1) {
       cahtList.innerHTML += `<li class="user">${value}</li>`;
@@ -229,7 +229,7 @@ function sendMessage(val) {
 
       setTimeout(() => {
         loadingImg.style.display = "none";
-        cahtList.innerHTML += `<li class="ChatBox">Allah apke lye asani kre or hamesha khush rakhe. Ameen!</li>`;
+        cahtList.innerHTML += `<li class="ChatBot">Allah apke lye asani kre or hamesha khush rakhe. Ameen!</li>`;
       }, 2000);
     } else if (urduGreetings.indexOf(value.toLowerCase()) != -1) {
       cahtList.innerHTML += `<li class="user">${value}</li>`;
@@ -237,12 +237,12 @@ function sendMessage(val) {
 
       setTimeout(() => {
         loadingImg.style.display = "none";
-        cahtList.innerHTML += `<li class="ChatBox">Walikum Assalam!</li>`;
+        cahtList.innerHTML += `<li class="ChatBot">Walikum Assalam!</li>`;
         loadingImg.style.display = "block";
       }, 2000);
       setTimeout(() => {
         loadingImg.style.display = "none";
-        cahtList.innerHTML += `<li class="ChatBox">Kaise ho? Mein SMIT ChatBox hun or SMIT men addmission lene k hawale se apko thori boht information de skta hun.</li>`;
+        cahtList.innerHTML += `<li class="ChatBot">Kaise ho? Mein SMIT ChatBot hun or SMIT men addmission lene k hawale se apko thori boht information de skta hun.</li>`;
         loadingImg.style.display = "block";
       }, 3500);
       setTimeout(() => {
@@ -258,12 +258,12 @@ function sendMessage(val) {
 
       setTimeout(() => {
         loadingImg.style.display = "none";
-        cahtList.innerHTML += `<li class="ChatBox">Hello!</li>`;
+        cahtList.innerHTML += `<li class="ChatBot">Hello!</li>`;
         loadingImg.style.display = "block";
       }, 2000);
       setTimeout(() => {
         loadingImg.style.display = "none";
-        cahtList.innerHTML += `<li class="ChatBox">Kaise ho? Mein SMIT ChatBox hun or SMIT men addmission lene k hawale se apko thori boht information de skta hun.</li>`;
+        cahtList.innerHTML += `<li class="ChatBot">Kaise ho? Mein SMIT ChatBot hun or SMIT men addmission lene k hawale se apko thori boht information de skta hun.</li>`;
         loadingImg.style.display = "block";
       }, 3500);
       setTimeout(() => {
@@ -278,7 +278,7 @@ function sendMessage(val) {
       loadingImg.style.display = "block";
       setTimeout(() => {
         loadingImg.style.display = "none";
-        cahtList.innerHTML += `<li class="ChatBox">men apko in cheezun k bare men bta skta hun k<br>
+        cahtList.innerHTML += `<li class="ChatBot">men apko in cheezun k bare men bta skta hun k<br>
         SMIT men registration kese hogi <br>
         SMIT men kon konse courses hote hen<br>
         in courses ki fees kya hai<br>
@@ -297,7 +297,7 @@ function sendMessage(val) {
 
       setTimeout(() => {
         loadingImg.style.display = "none";
-        cahtList.innerHTML += `<li class="ChatBox">registration ka process ye hai k apko SMIT k official FaceBook page per update rehna hoga jab SMIT k FaceBook page per ya website per apko courses open hone k bare men koi update mile to ap online hi SMIT ki website per registration form fill krenge phr apko chand din baad test k hawale se update mil jaengi phr ap age ka process follow krte jaeiga. or apko kis course men registration krwana chahte hen</li>`;
+        cahtList.innerHTML += `<li class="ChatBot">registration ka process ye hai k apko SMIT k official FaceBook page per update rehna hoga jab SMIT k FaceBook page per ya website per apko courses open hone k bare men koi update mile to ap online hi SMIT ki website per registration form fill krenge phr apko chand din baad test k hawale se update mil jaengi phr ap age ka process follow krte jaeiga. or apko kis course men registration krwana chahte hen</li>`;
         loadingImg.style.display = "block";
       }, 2000);
       setTimeout(() => {
@@ -311,7 +311,7 @@ function sendMessage(val) {
 
       setTimeout(() => {
         loadingImg.style.display = "none";
-        cahtList.innerHTML += `<li class="ChatBox">test apka kisi na kisi pakistan k  stadium men hoga mujhe jinho ne banaya hai unka "pakistan national staduim" men huwa tha to ap jab registration krwa loge to apko apke test ki location bta di jaegi.</li>`;
+        cahtList.innerHTML += `<li class="ChatBot">test apka kisi na kisi pakistan k  stadium men hoga mujhe jinho ne banaya hai unka "pakistan national staduim" men huwa tha to ap jab registration krwa loge to apko apke test ki location bta di jaegi.</li>`;
         loadingImg.style.display = "block";
       }, 2000);
       setTimeout(() => {
@@ -325,7 +325,7 @@ function sendMessage(val) {
 
       setTimeout(() => {
         loadingImg.style.display = "none";
-        cahtList.innerHTML += `<li class="ChatBox">registration ki fees k bare men apko registration k waqt bta diya jaega zyada nhi hoti bas 500 ya 1000 hogi.</li>`;
+        cahtList.innerHTML += `<li class="ChatBot">registration ki fees k bare men apko registration k waqt bta diya jaega zyada nhi hoti bas 500 ya 1000 hogi.</li>`;
       }, 2000);
     } else if (registrationInCourseOf.indexOf(value.toLowerCase()) != -1) {
       cahtList.innerHTML += `<li class="user">${value}</li>`;
@@ -334,7 +334,7 @@ function sendMessage(val) {
       console.log(userName);
       setTimeout(() => {
         loadingImg.style.display = "none";
-        cahtList.innerHTML += `<li class="ChatBox">acha to apka name kya hai.</li>`;
+        cahtList.innerHTML += `<li class="ChatBot">acha to apka name kya hai.</li>`;
       }, 2000);
     } else if (userName == value) {
       cahtList.innerHTML += `<li class="user">${value}</li>`;
@@ -342,7 +342,7 @@ function sendMessage(val) {
       userQualification = true;
       setTimeout(() => {
         loadingImg.style.display = "none";
-        cahtList.innerHTML += `<li class="ChatBox">acha ${userName} apki qualification kya hai?</li>`;
+        cahtList.innerHTML += `<li class="ChatBot">acha ${userName} apki qualification kya hai?</li>`;
         userName = false;
         loadingImg.style.display = "block";
       }, 2000);
@@ -359,11 +359,11 @@ function sendMessage(val) {
       setTimeout(() => {
         loadingImg.style.display = "none";
         if (userQualification.toLowerCase() == "intermediate") {
-          cahtList.innerHTML += `<li class="ChatBox">acha ${userQualification} kafi hai apke eligible hone k lye.</li>`;
+          cahtList.innerHTML += `<li class="ChatBot">acha ${userQualification} kafi hai apke eligible hone k lye.</li>`;
         } else if (userQualification.toLowerCase() == "metric") {
-          cahtList.innerHTML += `<li class="ChatBox">acha ${userQualification} bhi chalegi bas apko english conversational ani chahie take apko seekhne men asani ho</li>`;
+          cahtList.innerHTML += `<li class="ChatBot">acha ${userQualification} bhi chalegi bas apko english conversational ani chahie take apko seekhne men asani ho</li>`;
         } else if (userQualification.toLowerCase() == "middle pass") {
-          cahtList.innerHTML += `<li class="ChatBox">agar apne ${userQualification} kya huwa hai to apko mazeed thori education leleni chahie wrna apko course krne men mushkilat ka samna krna parega</li>`;
+          cahtList.innerHTML += `<li class="ChatBot">agar apne ${userQualification} kya huwa hai to apko mazeed thori education leleni chahie wrna apko course krne men mushkilat ka samna krna parega</li>`;
         }
 
         userQualification = false;

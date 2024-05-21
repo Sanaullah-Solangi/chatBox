@@ -138,7 +138,7 @@ html {
 }
 
 .user,
-.ChatBox {
+.ChatBot {
   padding: 10px 20px;
   font-size: 3rem;
   width: fit-content;
@@ -157,14 +157,14 @@ html {
   padding-right: 40px;
 }
 
-.ChatBox {
+.ChatBot {
   padding-left: 40px;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
   background-color: var(--mainColor2);
 }
 
-.ChatBox::after,
+.ChatBot::after,
 .user::after {
   content: "\f544";
   position: absolute;
@@ -181,7 +181,7 @@ html {
   align-items: center;
 }
 
-.ChatBox::after,
+.ChatBot::after,
 .user::after,
 .userInputContent .sendBtn {
   border-radius: 50%;
@@ -191,7 +191,7 @@ html {
   -o-border-radius: 50%;
 }
 
-.ChatBox::after {
+.ChatBot::after {
   left: -80px;
 }
 .user::after {
