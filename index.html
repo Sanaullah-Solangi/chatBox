@@ -24,7 +24,11 @@
       <!-- CHAT BOX STRUCTURE  -->
       <div class="chatContent m-auto">
         <ul class="chatList d-flex dir-col"></ul>
-        <img src="./assets/loadingdots2.gif" class="loadingImg"  alt="loading image">
+        <img
+          src="./assets/loadingdots2.gif"
+          class="loadingImg"
+          alt="loading image"
+        />
       </div>
       <!-- USER INPT STRUCTURE -->
       <div class="userInputContainer m-auto d-flex jc-center">
@@ -42,11 +46,8 @@
             placeholder="chat with SMIT chatBox"
             onkeypress="sendMessage()"
           />
-          <div
-            class="sendBtn d-flex al-center jc-center"
-            onclick="sendMessage()"
-          >
-            <i class="fa-solid fa-arrow-up"></i>
+          <div class="sendBtn d-flex al-center jc-center">
+            <i class="fa-solid fa-arrow-up" onclick="sendMessageBtn()"></i>
           </div>
         </div>
       </div>
